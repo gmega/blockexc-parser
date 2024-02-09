@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "download-parser"
+version = "0.1.0"
+description = ""
+authors = ["gmega <giuliano.mega@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+logtools = {git = "https://github.com/codex-storage/logtools"}
+ansiwrap = "^0.8.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+mypy = "^1.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
